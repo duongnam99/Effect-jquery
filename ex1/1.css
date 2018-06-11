@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0;}
+
+.ndmotkhoi {
+    padding:  5px;
+    /* opacity:  0; */
+}
+
+.motkhoi h3 {
+    background-color: #0bc50bc7;
+    padding:  10px;
+    border-radius: 5px;
+}
+
+.motkhoi h3:hover {
+    background-color:  green;
+    cursor:  pointer;
+}
+
+h3 {
+    font-size:  22px;
+}
+
+.hieuung {
+    font-size:  14px;
+}
+.motkhoi h3.xanh {
+	background-color: green;
+}

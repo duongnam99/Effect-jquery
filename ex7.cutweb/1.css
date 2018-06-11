@@ -1,0 +1,137 @@
+*{margin: 0; padding: 0;}
+
+.nut {
+    position:  absolute;
+    top: 60%;
+    left: 12%;
+    color: #36a9e6;
+    padding: 4px 30px;
+    background:  white;
+    border-radius: 10px;
+    z-index:  2;
+    font-family: 'Leckerli One', cursive;
+    transition:  0.4s;
+    opacity: 0;
+    animation: chu 1s forwards;
+    animation-delay: 3s;
+}
+
+.chuto {
+    position:  absolute;
+    top: 31%;
+    left: 12%;
+    z-index:  2;
+    font-family: 'Leckerli One', cursive;
+    font-size: 34px;
+    color:  white;
+    width: 30%;
+    transition:  0.4s;
+    opacity: 0;
+    animation: chu 1s forwards;
+    animation-delay: 2.5s;
+}
+@-webkit-keyframes chu {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+img.hoatiet2 {
+    position:  absolute;
+    z-index: 1;
+    bottom:  8%;
+    right: 9%;
+    transition:  0.4s;
+    opacity: 0;
+    animation: cauvong 1s forwards;
+    animation-delay: 0.8s;
+}
+@-webkit-keyframes cauvong {
+	0%{
+		opacity: 0;
+		transform: translateY(400px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+}
+
+img.hoatiet3 {
+    position:  absolute;
+    z-index: 1;
+    top: 24%;
+    right: 0;
+    transition:  0.4s;
+    opacity: 0;
+    animation: bongbong 1s forwards;
+    animation-delay: 1.4s;
+}
+@-webkit-keyframes bongbong {
+    0%{
+        opacity: 0;
+        transform: scale(0.4);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
+
+img.may {
+    position:  absolute;
+    z-index:  3;
+    bottom:  0;
+    right: -22%;
+    transition:  0.4s;
+    opacity: 0;
+    animation: dilen 1s forwards;
+}
+@-webkit-keyframes dilen {
+	0%{
+		opacity: 0;
+		transform: translateY(300px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+}
+
+img.embe {
+    position:  absolute;
+    bottom:  0;
+    right: 10%;
+    z-index: 2;
+    transition:  0.4s;
+    opacity: 0;
+    animation: embe 1s forwards;
+    animation-delay: 0.3s;
+}
+@-webkit-keyframes embe {
+	0%{
+		opacity: 0;
+		transform: translateY(300px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+}
+header.to {
+	overflow:hidden;
+    background:  url(images/2.jpg);
+    position:  relative;
+    background-size:  cover;
+    height:  700px;
+} 

@@ -1,0 +1,252 @@
+*{margin: 0; padding: 0;}
+html,body {
+	font-family: 'Pridi', serif;
+	width: 100%;
+	height: 100%;
+	position: relative; 
+}
+div#so5 {
+    position: relative;
+    width:  100%;
+    height: 100px;
+    background:  white;
+    padding-top: 30px;
+    top: 100px;
+}
+.text2dv {
+    font-size:  25px;
+    position:  absolute;
+    top: 300px;
+    width: 50%;
+    left:  50%;
+    transform: translateX(-50%);
+    color: #000000c7;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 1.2s; 
+}
+.developers img.img-fluid {
+    opacity: 0.8;
+}
+.ke {
+    position:  absolute;
+    height: 5px;
+    width: 60%;
+    background: #000000db;
+    top: 220px;
+    left:  20%;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 0.7s;
+}
+
+.text1dv {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 50px;
+    color: #000000db;
+    position:  absolute;
+    top: 140px;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 0.3s; 
+}
+
+div#so4 {
+    position:  relative;
+    width:  100%;
+    height: 100%;
+}
+
+.sv4 .anhsv4 {
+    background: url(images/onlinepay.jpg);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+}
+
+.services .sv3,.services .sv4 {
+    top: 380px;
+}
+
+.sv2 .anhsv {
+    background:  url(images/web.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+}
+
+.sv1, .sv2, .sv3,.sv4 {
+    position: absolute;
+    top: 120px;
+    width: 32%;
+    height: 250px;
+    left: 12%;
+}
+.services .sv2, .services .sv4 {
+    left: 56%;
+}
+
+.textsv {
+    bottom: 6%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sv1 .anhsv {
+    background: url(images/data1.jpeg);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+}
+
+.sv3 .anhsv {
+    background: url(images/it.jpeg);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+}
+
+.tieude {
+    position:  absolute;
+    top: 65px;
+    font-size:  30px;
+    left: 50%;
+    text-decoration:  overline;
+    transform: translateX(-50%);
+}
+
+div#so3 {
+	font-family: 'Pridi', serif;
+    position:  relative;
+    width:  100%;
+    height:  100%;
+    opacity: 0;
+    /*transform: scale(0.3);*/
+	/*transition-delay: 1s;*/
+}
+
+.noidung {
+	width: 100%;
+	height: 100%;
+}
+.textproduct1 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.textproduct2 {
+    margin-top: 10px;
+    font-family: 'Pridi', serif;
+    font-weight: 300;
+}
+
+.product1 .anh {background: url(images/booking.jpg);width: 100%;height: 200px;background-size: cover;}
+.product2 .anh {background: url(images/bigdata.jpeg);width: 100%;height: 200px;background-size: cover;}
+.product3 .anh {background: url(images/pay1.jpeg);width: 100%;height: 200px;background-size: cover;}
+
+.product1,.product2,.product3 {
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    width:  22%;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 0.1s;
+
+}
+.products .product2 {
+	left: 39%;
+}
+.products .product3 {
+	left: 68%;
+}
+.text {
+    position:  absolute;
+   	bottom: 30px;
+    left: 50%;
+    font-size: 25px;
+    opacity: 0;
+    transition: 3s;
+    transform: translateX(-50%);
+}
+.text.xuathientext {
+	transition-delay: 1s;
+	opacity: 1;
+}
+div#so2 {
+    position:  relative;
+    width:  100%;
+    height: 100%;
+}
+
+.trongsuot a.navbar-brand {
+    color: #eceeef;
+    font-size: 32px;
+    font-family: 'Black Han Sans', sans-serif;
+    transition: 0.3s;
+}
+
+.trongsuot.bienhinh a.navbar-brand {
+    padding: -10px;
+    padding-top: -134px;
+    margin-top: -4px;
+    transition: 0.3s;
+    font-size: 25px;
+} 
+nav.navbar.navbar-light.bg-faded.trongsuot {
+    background-color:  transparent;
+    transition: 0.5s;
+}
+
+nav.navbar.navbar-light.bg-faded.trongsuot.navbar-fixed-top.bienhinh {
+    background: #131212ed;
+    height: 50px;
+}
+.navbar-light.trongsuot .navbar-nav a.nav-link {
+	margin-top: 22px;
+	padding: 2px 20px 2px;
+	font-size: 18px;
+	font-family: 'Pridi', serif;
+	font-weight:  300;
+	color: #ffffffcf;
+	transition: 0.3s;
+}
+
+.banner .navbar ul li a.nav-link.active {
+    background: #ff0000b3;
+}
+
+.navbar-light.trongsuot.bienhinh .navbar-nav a.nav-link {
+    padding: 2px 20px 2px;
+    margin-top: 4px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.navbar-light.trongsuot .navbar-nav a.nav-link:hover {
+    color: white;
+}
+.product1.delay1 {
+	animation-delay: 0s;
+}
+.product2.delay2 {
+	animation-delay: 0.6s;
+}
+.product3.delay3 {
+	animation-delay: 1.1s;
+}
+/*#so3.services.svhienra {
+	opacity: 1;
+}*/
+.developers .textdvhienra{
+	opacity: 1;
+}
+/*#so2.products .productshienra {
+	opacity: 1;
+}*/
+.services {
+	animation-delay: 0.2s;
+}

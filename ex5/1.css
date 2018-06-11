@@ -1,0 +1,84 @@
+*{margin: 0; padding: 0;}
+
+.chunho {
+    position:  absolute;
+    z-index: 5;
+    top: 56%;
+    left: 17%;
+    font-family: 'Josefin Slab', serif;
+    color:  white;
+    text-align:  center;
+    width: 65%;
+    font-size: 15px;
+    transition:  0.4s;
+}
+
+.to:hover .chunho {
+    transform: translateY(-15px);
+}
+
+.chuto {
+    position:  absolute;
+    color:  white;
+    font-family: 'Josefin Slab', serif;
+    top: 30%;
+    left: 32%;
+    font-size: 32px;
+    z-index: 4;
+    transition:  0.4s;
+}
+
+.to:hover .chuto {
+    transform: translateY(15px);
+}
+
+.thanh1, .thanh2 {
+    width:  350px;
+    height: 1px;
+    background:  #ffffff8f;
+    position:  absolute;
+    top: 50%;
+    left: 6%;
+    z-index:  3;
+    transform: rotate(0deg);
+    transition:  0.4s;
+}
+
+.to:hover .thanh2 {
+    transform:  rotate(-45deg);
+}
+
+.to:hover  .thanh1 {transform:  rotate(45deg);}
+
+.nenxanh {
+    width:  400px;
+    height:  300px;
+    background: #0275d833;
+    z-index:  1;
+    position:  absolute;
+    top: 0;
+    left: 0;
+    opacity:  0;
+}
+
+.to:hover .nenxanh {
+    opacity: 0.8;
+}
+
+img.anh {
+    height:  300px; 
+    transition: 0.2s;
+    transform: scale(1.5);
+}
+
+.to:hover img.anh {
+    transform:  scale(1);
+}
+
+.to {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    cursor:  pointer;
+} 

@@ -1,0 +1,63 @@
+*{margin: 0; padding: 0;}
+html,body {
+    position: relative; 
+}
+div#so5 {
+    height:  900px;
+    overflow:  hidden;
+    background:  #34495e;
+    padding-top: 50px;
+    color: white;
+}
+
+div#so4 {
+    height:  900px;
+    overflow:  hidden;
+    background: #1abc9c;
+     padding-top: 50px;
+}
+
+div#so3 {
+    height:  900px;
+    overflow:  hidden;
+    background:  #e67e22;
+     padding-top: 50px;
+}
+
+div#so2 {
+    height:  900px;
+    background:  #9b59b6;
+    overflow:  hidden;
+    color:  white;
+    padding-top: 50px;
+}
+
+div#so1 {
+	padding-top: 50px;
+    height:  900px;
+    background: #3498db;
+    overflow:hidden;
+}
+
+.menutren a {
+    display:  inline-block;
+    padding:  10px 12px;
+    color:  white;
+    text-decoration: none;
+}
+
+.menutren li {
+    display:  inline;
+}
+
+.menutren {
+    position:  fixed;
+    top: 0;
+    width:  100%;
+    height: 46px;
+    background: #000000c4;
+    text-align:  center;
+} 
+.noidung {
+	margin-top: 46px;
+}

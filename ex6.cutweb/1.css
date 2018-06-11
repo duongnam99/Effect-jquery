@@ -1,0 +1,107 @@
+*{margin: 0; padding: 0;}
+
+.menu {
+    position:  absolute;
+    top: 6%;
+    left: 13%;
+    z-index:  5;
+    background:  white;
+    width:  1000px;
+    height: 72px;
+    animation: hienra 2s forwards;
+    opacity:0;
+}
+
+.nut {
+    position:  absolute;
+    top: 50%;
+    left: 16%;
+    background: #5bc0dedb;
+    padding:  10px 20px;
+    z-index:  4;
+    font-family:  segoe ui light;
+    border-radius: 8px;
+    transition:  0.4s;
+    opacity: 0;
+    animation: divao 1s forwards;
+    animation-delay: 0.6s
+}
+
+.hieuung .chunho {
+    font-size: 17px;
+    top: 38%;
+    position:  absolute;
+    left: 14%;
+    width: 301px;
+    animation-delay: 0.3s;
+   
+}
+
+.chuto, .chunho {
+    z-index:  3;
+    position:  absolute;
+    top: 30%;
+    left: 14%;
+    font-size:  33px;
+    font-family: segoe ui lightt;
+    transition:  0.4s;
+    opacity: 0;
+    animation: divao 2s forwards;
+}
+@-webkit-keyframes divao {
+	0%{
+		transform: translateX(-600px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+img.cogai {
+    position:  absolute;
+    bottom: -700px;
+    z-index:  2;
+    right: 20%;
+    transition:  0.4s;
+    animation: cogai 1.5s forwards;
+    animation-delay: 0.4s;
+}
+@-webkit-keyframes cogai {
+	0%{
+		bottom: -800px
+		/*opacity:0;*/
+	}
+	100% {
+		bottom: 0px;
+	}
+}
+
+.anhnen {
+    height: 700px;
+    position:  absolute;
+    z-index:  1;
+    top: 0;
+    left: 0;
+    background: url(images/1.jpg);
+    width:  100%;
+    transition:  0.4s;
+    background-size: cover;
+    animation: hienra 2s forwards;
+    opacity:0;
+}
+@-webkit-keyframes hienra{
+	0%{
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.phantren {
+    height: 700px;
+    position:  relative;
+    overflow:hidden;
+} 
